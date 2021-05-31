@@ -8,15 +8,3 @@ export default function Home(props) {
          )
      }
 }
-
-export async function getStaticProps() {
-    const response = await fetch('http://localhost:3000/api/informaticos/?id=1');
-    const alunos = await response.json();
-
-    return {
-        props: {
-            alunos
-        }
-    }
-
-}
