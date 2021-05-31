@@ -2,15 +2,15 @@ export default function Home(props) {
     console.log('Passando pelo Front-End')
     const tempoDinamico = new Date();
     const tempoD = tempoDinamico.toGMTString();
-
+/*
     return (
         <div>
             <p>{props.alunos.id}</p>
             <p>{props.alunos.title}</p>
         </div>
     )
-
-    /*
+*/
+    
     {
                 props.alunos.map(poste => {
                     return (
@@ -22,7 +22,7 @@ export default function Home(props) {
                     )
                 })
             }
-    */
+    
     /*
      while (props.alunos) {
          return (
