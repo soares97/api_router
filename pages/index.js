@@ -45,7 +45,7 @@ export async function getStaticProps() {
     //const tempoEstatico = new Date();
     //const tempoE = tempoEstatico.toGMTString();
 
-    const response = await fetch('https://jsonplaceholder.typicode.com/photos');
+    const response = await fetch('https://github.com/soares97/api_router/blob/main/pages/api/informaticos');
     const alunos = await response.json();
 
     return {
