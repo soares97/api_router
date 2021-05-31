@@ -2,12 +2,12 @@ export default function informaticos(request, response) {
     var id = request.query.id
 
     var alunos = [{
-        "id": 10,
+        "id": 1,
         "nome": "Michel",
         "idade": "24"
     },
     {
-        "id": 4,
+        "id": 2,
         "nome": "Silvania",
         "idade": "23"
 
@@ -18,7 +18,7 @@ export default function informaticos(request, response) {
         "idade": "24"
     },
     {
-        "id": 1,
+        "id": 4,
         "nome": "Adjilza",
         "idade": "22"
     },
