@@ -1,3 +1,5 @@
+//Este Endpoint Returna um vetor com 6 objectos correspondente a Informáticos caso não for informado um ID.(exeplo: http://localhost:3000/api/informaticos)
+// Se for informado o ID, ele returna o respetivo informático. (exeplo: http://localhost:3000/api/informaticos?id= "x");
 export default function informaticos(request, response) {
     var id = request.query.id
 
